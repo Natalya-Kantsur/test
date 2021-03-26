@@ -1,0 +1,17 @@
+$font--basic: 'Roboto', sans-serif;
+$font--second: 'Bad script', sans-serif;
+
+$color--transparent: rgba(255, 255, 255, 0.6);
+$color--white: #ffffff;
+$color--black: #000000;
+$color--orange: #f6c866;
+
+body {
+    text-align: center;
+    box-sizing: border-box;
+    background-color: $color--black;
+    font-family: $font--basic;
+}
+.hide {
+    display: none;
+}

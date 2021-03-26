@@ -1,0 +1,82 @@
+// первый блок
+.header {
+    background-image: url(/blik.png);
+    background-size: 100%;
+    background-position: 100% 58%;
+    background-repeat: no-repeat;
+}
+span {
+    color: $color--transparent;
+    font-size: 16px;
+    font-family: $font--basic;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+}
+
+.header__best {
+    padding: 40px 0px 20px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.2);
+}
+.header__forecast {
+    padding-top: 12px;
+    padding-bottom: 65px;
+    span {
+    font-size: 25px;
+    line-height: 29px;
+    }
+}
+.header__img {
+    background-image: url(/icon1.svg);
+    background-size: cover;
+    max-width: 350px;
+    max-height: 350px;
+    margin: 0px auto;
+    img {
+        display: block;
+        max-width: 60%;
+        margin: auto;
+        padding: 70px 0px;
+    }
+}
+
+// второй блок
+.main__block {
+    border: 1px solid $color--white;
+    max-width: 440px;
+    max-height: 440px;
+    margin: 150px auto 70px;
+}
+.main__img {
+    margin-top: -20%;
+}
+.main__content {
+    padding: 54px 46px 84px 32px;
+}
+.main__text {
+    font-weight: 500;
+    color: $color--white;
+    font-size: 25px;
+    line-height: 35px;
+}
+.main__text--color {
+    color: $color--orange;
+}
+
+// третий блок
+.content {
+    background-image: url(/image.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0px auto 133px;
+}
+.content__text {
+    padding: 240px 0px;
+    font-size: 25px;
+    line-height: 35px;
+    color: $color--white;
+    margin: 0px auto;
+    max-width: 380px;
+}
+.text--orange {
+    color: $color--orange;
+}
