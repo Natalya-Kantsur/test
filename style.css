@@ -605,9 +605,9 @@ span {
   }
 }
 @media (max-width: 1440px) {
-  .header {
+/*   .header {
     background-position: 100% 65%;
-  }
+  } */
 
   .test {
     overflow: hidden;
