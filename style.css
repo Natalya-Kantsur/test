@@ -560,7 +560,7 @@ span {
     padding: 25px 0px;
   }
   .block__quote--3 article::after {
-    bottom: -40%;
+    bottom: -35%;
   }
 
   .block__quest--test {
